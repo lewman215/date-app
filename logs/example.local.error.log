@@ -1,0 +1,20 @@
+[Mon Apr 01 21:26:55.009589 2019] [authz_core:error] [pid 13884:tid 2004] [client 127.0.0.1:51870] AH01630: client denied by server configuration: C:/path
+[Mon Apr 01 21:26:55.199971 2019] [authz_core:error] [pid 13884:tid 2004] [client 127.0.0.1:51870] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 21:27:29.851328 2019] [authz_core:error] [pid 13884:tid 2004] [client 127.0.0.1:51904] AH01630: client denied by server configuration: C:/path
+[Mon Apr 01 21:27:29.978288 2019] [authz_core:error] [pid 13884:tid 2004] [client 127.0.0.1:51904] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 21:27:37.089148 2019] [authz_core:error] [pid 14784:tid 1976] [client 127.0.0.1:51911] AH01630: client denied by server configuration: C:/path
+[Mon Apr 01 21:27:37.175103 2019] [authz_core:error] [pid 14784:tid 1976] [client 127.0.0.1:51911] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 21:27:39.318702 2019] [authz_core:error] [pid 14784:tid 1976] [client 127.0.0.1:51911] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 21:27:39.407673 2019] [authz_core:error] [pid 14784:tid 1976] [client 127.0.0.1:51911] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 21:28:04.941978 2019] [authz_core:error] [pid 13328:tid 1976] [client 127.0.0.1:51943] AH01630: client denied by server configuration: C:/path
+[Mon Apr 01 21:28:05.029950 2019] [authz_core:error] [pid 13328:tid 1976] [client 127.0.0.1:51943] AH01630: client denied by server configuration: C:/path, referer: http://dateapp.com/
+[Mon Apr 01 22:36:06.160887 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55785] PHP Notice:  Undefined property: Date::$name in C:\\xampp\\htdocs\\dateapp\\date.php on line 8, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:37:22.517027 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55856] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\dateapp\\date.php on line 8, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:37:48.814120 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55897] PHP Notice:  Undefined property: Date::$name in C:\\xampp\\htdocs\\dateapp\\date.php on line 8, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.753988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: id in C:\\xampp\\htdocs\\dateapp\\date.php on line 9, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.754988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: title in C:\\xampp\\htdocs\\dateapp\\date.php on line 10, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.754988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: relationship in C:\\xampp\\htdocs\\dateapp\\date.php on line 11, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.754988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: description in C:\\xampp\\htdocs\\dateapp\\date.php on line 12, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.755988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: cost in C:\\xampp\\htdocs\\dateapp\\date.php on line 13, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:38:26.755988 2019] [php7:notice] [pid 8328:tid 1976] [client 127.0.0.1:55937] PHP Notice:  Undefined variable: timeNeeded in C:\\xampp\\htdocs\\dateapp\\date.php on line 14, referer: http://dateapp.com/date?id=2
+[Mon Apr 01 22:39:54.508924 2019] [php7:crit] [pid 8328:tid 1976] [client 127.0.0.1:56021] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\\xampp\\htdocs\\dateapp\\date.php on line 10, referer: http://dateapp.com/date?id=2

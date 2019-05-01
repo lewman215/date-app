@@ -1,0 +1,79 @@
+/*Date List*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-success {
+	background-color: #9f7eab;
+	border-color: #804e92;
+}
+
+.btn-success:hover {
+	background-color:#00a4e0;
+}
+
+a {
+	color:#555
+}
+.form-group {
+	margin-bottom: 20px !important;
+}
+
+
+.date {
+	height: 200px; 
+	border: 1px solid #d8d8d8;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	box-shadow: 0px 10px 20px -5px rgba(0,0,0,.3);
+}
+
+.date > .dateTitle {
+	color: white;
+	background-color: #aba57e;
+	font-weight: bold;
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.date > .dateDescription {
+	padding: 10px;
+	display: block;
+}
+
+.date > .dateCost{
+	padding: 10px;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+}
+
+.dateTime {
+	padding: 10px;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+}
+/*NavBar End*/
+
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.titleSection {
+	background-color: #E53935;
+}
+
+
+
+
+
+
+
+
