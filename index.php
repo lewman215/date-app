@@ -1,7 +1,7 @@
 <?php include("views/header.php"); ?>
-    <div style="width: 100%; box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); ">
+<!--     <div style="width: 100%; box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); ">
         <img width="100%" src="images/coup.png">
-    </div>
+    </div> -->
 
     <div class="container-fluid" id="indexContainer" style="margin-left: auto; margin-right: auto; background-color: white; min-width: 330px; max-width: 60%; margin-top: 50px;">
 
