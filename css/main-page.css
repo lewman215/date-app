@@ -18,6 +18,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.modal-header {
+	border-bottom: none;
+}
+
 .login {
 	width: 100px;
 	text-align: center;

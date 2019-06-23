@@ -8,6 +8,7 @@
 
     <?php include("views/new_date_modal.php") ?>
 
+
 <script src="js/global.js"></script>
 
 </body>

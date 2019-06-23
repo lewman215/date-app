@@ -3,28 +3,43 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Add Date</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-        </div>
+      <div class="modal-body">
+        <form id="newDate">
+          <div class="form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label data-error="wrong" data-success="right">Title</label>
+            <input class="form-control validate" id="title">
+          </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
-        </div>
+          <div class="form">
+            <i class="grey-text"></i>
+            <label data-error="wrong" data-success="right" for="defaultForm-pass">Description</label>
+            <textarea class="form-control" rows="5" id="description"></textarea>
+          </div>
 
+          <div class="form">
+            <i class="grey-text"></i>
+            <label data-error="wrong" data-success="right" for="defaultForm-pass">Max Time</label>
+            <input class="form-control validate" id="maxTime">
+          </div>
+
+          <div class="form">
+            <i class="grey-text"></i>
+            <label data-error="wrong" data-success="right" for="defaultForm-pass">Max Cost</label>
+            <input class="form-control validate" id="maxCost">
+          </div>
+          
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="submit btn btn-default">Add Date!</button>
+          </div>
+        </form>
       </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-default">Login</button>
-      </div>
+
     </div>
   </div>
 </div>

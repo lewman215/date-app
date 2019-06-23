@@ -19,6 +19,10 @@ class Date {
 		return $the_object;
 	}
 
+	public static function add_date($title, $description, $maxCost, $maxTime) {
+		return self::find_this_query("INSERT INTO dates (description, title, cost, time) VALUES ('$description', '$title', '$maxCost', '$maxTime')");
+	}
+
 	public static function find_all_dates() {
 		return self::find_this_query("SELECT * FROM dates");
 	}
@@ -44,12 +48,17 @@ class Date {
 	public static function find_this_query($sql) {
 		global $database;
 		$result_set = $database->query($sql);
+		if ($result_set === TRUE) {
+			return "nothing to report, successful insert";
+		}
+		else {
 		$object_array = array();
 		while ($row = mysqli_fetch_array($result_set)) {
 			$object_array[] = self::instantiation($row);
 		}
 		$json = json_encode($object_array);
 		return $object_array;
+		}
 	}
 
 	public static function object_to_json($object) {
